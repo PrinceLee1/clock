@@ -16,22 +16,21 @@ body {
     color: #ecf0f1; /* Light text color */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-  
+
 #date, #time {
 font-size: 18px;
 margin: 5px 0;
 color: #ecf0f1; /* Light text color */
 }
-  
-  #time {
+
+#time {
     font-size: 36px;
     font-weight: bold;
     font-family: 'Oswald', sans-serif; /* Stylish font for the time */
-  }
-  
+}
+
   /* Adding a subtle hover effect for a bit of interactivity */
-  .clock:hover {
+.clock:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
-  }
-  
+}
